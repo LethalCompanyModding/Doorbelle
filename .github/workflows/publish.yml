@@ -26,4 +26,4 @@ jobs:
         env:
           TCLI_AUTH_TOKEN: ${{ secrets.TCLI_AUTH_TOKEN }}
         run: |
-          tcli publish --config-path "./tspublish/thunderstore.toml" --package-version ${{ github.ref_name }}
+          dotnet tcli publish --config-path "./tspublish/thunderstore.toml" --package-version ${{ github.ref_name }}
