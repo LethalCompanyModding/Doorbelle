@@ -9,7 +9,7 @@ description = "Lets you walk out in space"
 websiteUrl = "https://github.com/LethalCompanyModding/doorbelle"
 containsNsfwContent = false
 [package.dependencies]
-AuthorName-PackageName = "0.0.1"
+BepInEx-BepInExPack = "5.4.2100"
 
 
 [build]
