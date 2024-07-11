@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <OutputPath>./bin/Flowerful</OutputPath>
+    <OutputPath>./bin/LCM</OutputPath>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
   </PropertyGroup>
 
