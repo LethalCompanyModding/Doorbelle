@@ -1,0 +1,37 @@
+[config]
+schemaVersion = "0.0.1"
+
+[package]
+namespace = "LethalCompanyModding"
+name = "Doorbelle"
+versionNumber = "1.0.0"
+description = "Lets you walk out in space"
+websiteUrl = "https://github.com/LethalCompanyModding/doorbelle"
+containsNsfwContent = false
+[package.dependencies]
+AuthorName-PackageName = "0.0.1"
+
+
+[build]
+icon = "./icon.png"
+readme = "../README.md"
+outdir = "./build"
+
+[[build.copy]]
+source = "../bin/LCM/Doorbelle.dll"
+target = "/plugins/Doorbelle/"
+
+[[build.copy]]
+source = "../license"
+target = "/"
+
+[general]
+repository = "https://thunderstore.io"
+
+[publish]
+repository = "https://thunderstore.io"
+communities = [ "lethal-company", ]
+[publish.categories]
+lethal-company = [ "mods", "clientside" ]
+
+
