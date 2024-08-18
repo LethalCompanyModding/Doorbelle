@@ -2,5 +2,5 @@
 
 ## Ver 1.0.2
 
-- Recompiled for v60
+- Recompiled against v61
 - Updated publish workflow
