@@ -9,7 +9,7 @@
     </ItemGroup>
 
     <Target Name="AddGeneratedFile" BeforeTargets="BeforeCompile;CoreCompile"
-        Inputs="$(MSBuildAllProjects)" Outputs="$(IntermediateOutputPath)LCMLCMPluginInfo.cs">
+        Inputs="$(MSBuildAllProjects)" Outputs="$(IntermediateOutputPath)LCMPluginInfo.cs">
 
         <PropertyGroup>
             <LCMPluginGuid Condition="'$(LCMPluginGuid)' == ''">$(AssemblyName)</LCMPluginGuid>
@@ -23,7 +23,7 @@ internal static class LCMPluginInfo
   public const string PLUGIN_VERSION = "$(LCMPluginVersion)"%3B
 }
 ]]></GeneratedText>
-            <GeneratedFilePath>$(IntermediateOutputPath)LCMLCMPluginInfo.cs</GeneratedFilePath>
+            <GeneratedFilePath>$(IntermediateOutputPath)LCMPluginInfo.cs</GeneratedFilePath>
         </PropertyGroup>
 
         <ItemGroup>
