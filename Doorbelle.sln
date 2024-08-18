@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Doorbelle", "Doorbelle.csproj", "{F11B2391-3B2C-4497-B901-921394AB60BC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DE9331CC-4779-49F4-BE04-55DA804BA764}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Doorbelle", "src\Doorbelle\Doorbelle.csproj", "{AC7E11C1-7016-4D4E-8DE3-CF8FE367F0FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F11B2391-3B2C-4497-B901-921394AB60BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F11B2391-3B2C-4497-B901-921394AB60BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F11B2391-3B2C-4497-B901-921394AB60BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F11B2391-3B2C-4497-B901-921394AB60BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC7E11C1-7016-4D4E-8DE3-CF8FE367F0FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC7E11C1-7016-4D4E-8DE3-CF8FE367F0FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC7E11C1-7016-4D4E-8DE3-CF8FE367F0FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC7E11C1-7016-4D4E-8DE3-CF8FE367F0FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC7E11C1-7016-4D4E-8DE3-CF8FE367F0FE} = {DE9331CC-4779-49F4-BE04-55DA804BA764}
+	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {3FF2C615-6BC7-428D-AA5C-4A8A9A535B68}
+		SolutionGuid = {4948A149-AD6B-41FF-BDD9-939C48FD5489}
 	EndGlobalSection
 EndGlobal
